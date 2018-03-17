@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Carousel Task</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  </head>
+  <body>
+
+    <!-- Carousel start from here -->
+    <div class="carousel slide" id="myCarousel">
+
+    	<!-- Indicators -->
+    	<ol class="carousel-indicators">
+    		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+    		<li data-slide-to="1" data-target="#myCarousel"></li>
+    		<li data-slide-to="2" data-target="#myCarousel"></li>
+    	</ol>
+
+    	<!-- End of Indicators -->
+
+    	<!-- Start Carousel Wrapper -->
+    	<div class="carousel-inner">
+    		<!-- Carousel Item 1 -->
+    		<div class="item active" id="slide1">
+    			<!-- Carousel Caption -->
+    			<div class="carousel-caption">
+    				<h4>First Slide</h4>
+    				<p>I am the first slide on the carousel. how are you people ...!</p>
+    			</div> <!-- End of Carousel caption -->
+    		</div> <!-- End of Item 1 -->
+
+    		<!-- Carousel Item 2 -->
+    		<div class="item" id="slide2">
+    			<!-- Carousel Caption -->
+    			<div class="carousel-caption">
+    				<h4>Second Slide</h4>
+    				<p>I am the second slide on the carousel. how are you people ...!</p>
+    			</div> <!-- End of Carousel caption -->
+    		</div> <!-- End of Item 1 -->
+
+    		<!-- Carousel Item 3 -->
+    		<div class="item" id="slide3">
+    			<!-- Carousel Caption -->
+    			<div class="carousel-caption">
+    				<h4>Third Slide</h4>
+    				<p>I am the third slide on the carousel. how are you people ...!</p>
+    			</div> <!-- End of Carousel caption -->
+    		</div> <!-- End of Item 1 -->
+    	</div> <!-- End of Wrapper -->
+
+    	<!-- Controls -->
+
+    	<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+    	<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+    	<!-- End of Controls -->
+
+    </div> <!-- End of Carousel -->
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+  </html>

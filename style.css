@@ -1,0 +1,40 @@
+
+#myCarousel {
+	height: 400px;
+	background-color: black;
+	width: 80%;
+	margin: 20px auto 0px auto;
+}
+
+.carousel .carousel-caption {
+	color: white;
+	font-weight: bold;
+}
+/****** Media Quiries *******/
+
+/* Small Phones */
+@media (max-width: 480px) {
+
+}
+
+/* Medium Phones (tablets)*/
+@media (max-width: 768px) {
+	#myCarousel {
+	height: 310px;
+	background-color: black;
+	width: 80%;
+	margin: 20px auto 0px auto;
+}
+}
+
+/*Large desktop*/
+@media (min-width: 1200px) {
+	#myCarousel {
+	height: 500px;
+	background-color: black;
+	width: 80%;
+	margin: 20px auto 0px auto;
+}
+}
+
+/******** End of Media Quiries **************/
